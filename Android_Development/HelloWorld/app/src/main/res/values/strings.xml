@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="percy_intro">Hello World! My name is Percy. I love Java, soccer, and Harry Potter movies</string>
+    <string name="button_text">SAY HELLO!</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="201dp"
+        android:layout_height="40dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:lines="1"
+        android:padding="5dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name here" />
+
+    <TextView
+        android:id="@+id/priceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:padding="5dp"
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Price Here" />
+
+    <TextView
+        android:id="@+id/linkTv"
+        android:layout_width="155dp"
+        android:layout_height="31dp"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:fontFamily="sans-serif-medium"
+        android:lines="1"
+        android:onClick="openLink"
+        android:padding="5dp"
+        android:textAlignment="viewEnd"
+        android:textSize="9sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceTv"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Link Here" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gold"
+    tools:context=".MainActivity">
+
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="294dp"
+        android:layout_height="22dp"
+        android:text="POPULAR MOVIES"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="com.codepath.bestsellerlistapp.BestSellerBooksFragment"
+        android:layout_width="407dp"
+        android:layout_height="246dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257"
+
+        tools:listitem="@layout/fragment_flixster" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="294dp"
+        android:layout_height="22dp"
+        android:text="TOP RATED SHOWS"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_shows"
+        android:name="my_shows"
+        android:layout_width="407dp"
+        android:layout_height="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891"
+
+        tools:listitem="@layout/fragment_shows" />
+
+
+    <!--    <androidx.core.widget.ContentLoadingProgressBar-->
+<!--            android:id="@+id/progress"-->
+<!--            style="?android:attr/progressBarStyleLarge"-->
+<!--            android:layout_width="126dp"-->
+<!--            android:layout_height="131dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:indeterminate="true"-->
+<!--            android:theme="@style/Widget.AppCompat.ProgressBar"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/list"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+<!--    </FrameLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
