@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_create_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_create_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_activity_plan_ingredients.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\activity_plan_ingredients.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "com.ethereallab.fb_todo.app-debug-50:/layout_fragment_create.xml.flat",
+        "source": "com.ethereallab.fb_todo.app-main-52:/layout/fragment_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_add_to_cart.jpg.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\add_to_cart.jpg"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_login_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_login_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_create.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_list_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_list_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_home_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\color_light_gray.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\color\\light_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\menu_auth_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\menu\\auth_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_recipe.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\menu_main_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\menu\\main_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_checklist_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_checklist_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_register_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_register_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_plan_recipe.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_plan_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_person_24.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_meals.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_meals.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\drawable_avatar.png.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\drawable\\avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_item_todo.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\item_todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-debug-50:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\pflores.000\\.gradle\\daemon\\8.7\\com.ethereallab.fb_todo.app-main-52:\\layout\\fragment_register.xml"
+    }
+]

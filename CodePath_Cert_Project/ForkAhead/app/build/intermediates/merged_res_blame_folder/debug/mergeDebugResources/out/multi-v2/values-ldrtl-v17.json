@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ethereallab.fb_todo.app-mergeDebugResources-48:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pflores.000\\.gradle\\caches\\transforms-4\\7348f8880a624cb6def24b86aacfc877\\transformed\\material-1.12.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        }
+    ]
+}

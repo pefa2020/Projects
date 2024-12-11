@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "155398979260",
+    "project_id": "inclasssample-6855a",
+    "storage_bucket": "inclasssample-6855a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155398979260:android:abb77a59f76038d0269ab9",
+        "android_client_info": {
+          "package_name": "com.ethereallab.fb_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe4eUYLDDq9csIgnuwPi-8QYgkCkUTs0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155398979260:android:658948796efa0dd4269ab9",
+        "android_client_info": {
+          "package_name": "com.inclass.fun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe4eUYLDDq9csIgnuwPi-8QYgkCkUTs0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

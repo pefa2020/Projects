@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_color">#D81B60</color>
+    <color name="black">#FF000000</color>
+    <color name="light_gray">#F0F0F0</color>
+    <color name="primary_color">#008577</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="linearLayout" type="id"/>
+    <string name="app_name">ForkAhead</string>
+    <string name="gcm_defaultSenderId" translatable="false">155398979260</string>
+    <string name="google_api_key" translatable="false">AIzaSyCe4eUYLDDq9csIgnuwPi-8QYgkCkUTs0A</string>
+    <string name="google_app_id" translatable="false">1:155398979260:android:abb77a59f76038d0269ab9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCe4eUYLDDq9csIgnuwPi-8QYgkCkUTs0A</string>
+    <string name="google_storage_bucket" translatable="false">inclasssample-6855a.firebasestorage.app</string>
+    <string name="project_id" translatable="false">inclasssample-6855a</string>
+    <style name="Base.Theme.FB_ToDo" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.FB_ToDo" parent="Base.Theme.FB_ToDo"/>
+</resources>

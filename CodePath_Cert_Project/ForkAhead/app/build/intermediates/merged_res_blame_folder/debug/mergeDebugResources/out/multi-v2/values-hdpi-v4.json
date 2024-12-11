@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ethereallab.fb_todo.app-mergeDebugResources-48:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pflores.000\\.gradle\\caches\\transforms-4\\a9dcb05e6943b5ab425be56bcc348a4d\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
