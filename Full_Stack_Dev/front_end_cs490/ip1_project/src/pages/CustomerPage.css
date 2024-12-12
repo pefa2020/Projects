@@ -1,0 +1,361 @@
+.customerPage {
+  background-color: rgb(242, 236, 200);
+  color: black;
+  height: 240vh;
+}
+
+.forMargin {
+  margin-left: 40px;
+}
+
+/* Add customer button */
+.add_customer_button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.add_customer_button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/* For the popup_window*/
+.modal {
+  display: flex;
+  padding: 50px;
+  background-color: rgb(246, 253, 156);
+  border: #8f804a dotted;
+}
+
+.modal input {
+  margin-left: 20px;
+}
+
+/* Form CSS*/
+.ua_form {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Custsomer bar on update */
+.customer_bar {
+  width: 100%;
+  margin: 10px 1px 1px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 1.9rem;
+  border-radius: 2rem; 
+  background: #bce1f6;
+  box-shadow: 1px 1px 2px #5d6468, -1px -1px 2px #b1d5ea;
+}
+
+.customer_bar input,select{
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+  font-family: var(--font-raleway);
+  font-weight: 20;
+  padding-right: 1rem;
+  margin-left: 10px;
+  outline: none;
+  color: #000000;
+  background: #bce1f6;
+}
+
+select, option {
+  width: 200px;
+}
+
+option {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Delete Button*/
+.delete_button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 8px 8px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.delete_button:hover,
+.delete_button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.delete_button:active {
+  opacity: .5;
+}
+
+/* More info button */
+.more_info_button, .edit_button {
+  align-items: center;
+  appearance: none;
+  background-color: #ecf4fb;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 17px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.more_info_button:hover, .edit_button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.more_info_button:active, .edit_button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.more_info_button:focus, .edit_button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.more_info_button:not(:disabled), .edit_button:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.more_info_button:not(:disabled):hover, .edit_button:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.more_info_button:not(:disabled):focus, .edit_button:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.more_info_button:not(:disabled):active, .edit_button:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.more_info_button:disabled, .edit_button:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+/* Add Customer Button & Update customer button */
+.add_button {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  background: transparent;
+  margin-top: 12px;
+  margin-left: 40px;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add_button::after,
+.add_button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.add_button::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #343496;
+  border-radius: 10px;
+}
+
+.add_button::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.add_button:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.add_button:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.add_button:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+/* Delet buttons confirmation */
+.modal_confirmation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal_confirmation h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal_confirmation button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .modal_confirmation:first-child {
+  background-color: #f44336;
+  color: white;
+  margin-right: 10px;
+} */
+
+.modal_confirmation:last-child {
+  background-color: #ff9e37;
+  color: white;
+  border: dotted;
+  border-radius: 10px;
+  border-width: 3.5px;
+}
+
+/* Yes No button confirmation */
+
+.yesNo_button {
+  text-align: left;
+align-self: center;
+background-color: #fff;
+background-image: none;
+background-position: 0 90%;
+background-repeat: repeat no-repeat;
+background-size: 4px 3px;
+border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+border-style: solid;
+border-width: 2px;
+box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+box-sizing: border-box;
+color: #41403e;
+cursor: pointer;
+display: inline-block;
+font-family: Neucha, sans-serif;
+font-size: 1rem;
+line-height: 23px;
+outline: none;
+padding: .75rem;
+text-decoration: none;
+transition: all 235ms ease-in-out;
+border-bottom-left-radius: 15px 255px;
+border-bottom-right-radius: 225px 15px;
+border-top-left-radius: 255px 15px;
+border-top-right-radius: 15px 225px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.yesNo_button:hover {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+transform: translate3d(0, 2px, 0);
+}
+
+.yesNo_button:focus {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

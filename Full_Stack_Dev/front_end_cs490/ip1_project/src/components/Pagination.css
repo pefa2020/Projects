@@ -1,0 +1,23 @@
+.pagination {
+    background-color: rgb(181, 242, 181);
+}
+
+.pagination button {
+    background-color: #a13333;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+/* A parent css */
+.a_parent 
+{
+    display: flex;
+    flex-direction:  row;
+    gap: 10px;
+    align-items: center;
+}

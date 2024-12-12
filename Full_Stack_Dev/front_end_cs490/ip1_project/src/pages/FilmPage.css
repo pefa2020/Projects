@@ -1,0 +1,161 @@
+.filmPage{
+  background-color: rgb(242, 236, 200);
+  color: black;
+  height: 100vh;
+}
+
+.forMargin {
+  margin-left: 40px;
+}
+
+
+/* For a table */
+.my_table {
+  font-family:Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.my_table th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.my_table tr:hover {
+  background-color: #ddd;
+}
+
+.my_table tr{
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.my_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #046aa9;
+  color: white;
+}
+
+/* For the Search Buttons */
+.search {
+  background-color: #e3ea14;
+  border: none;
+  border-radius: 12px;
+  color: rgb(12, 53, 90);
+  padding: 2px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* For the search bars */
+.searchBar {
+  width: 30%;
+  margin: 1px 0 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 1.25rem;
+  border-radius: 2rem; 
+  background: #5d6468;
+  box-shadow: 1px 1px 2px #5d6468, -1px -1px 2px #5d6468;
+}
+
+.searchBar input {
+  flex: 1;
+  border: none;
+  font-size: 1.2rem;
+  font-family: var(--font-raleway);
+  font-weight: 20;
+  padding-right: 1rem;
+  margin-left: 10px;
+  outline: none;
+  color: #ededed;
+  background: #5d6468;
+}
+
+/* Warnings on empty fields, etc*/
+.warning{
+  
+  margin-right: 60%;
+  border: 1px solid rgba(241, 142, 6, 0.81);
+  background-color: rgb(243, 255, 78);
+  box-shadow: 0px 0px 2px #feba28;
+  color: #655302;
+  cursor:pointer;
+  text-align: left;
+  padding: 7px;
+}
+
+/* For the film rent button */
+.film_rent_button {
+  text-align: left;
+align-self: center;
+background-color: #fff;
+background-image: none;
+background-position: 0 90%;
+background-repeat: repeat no-repeat;
+background-size: 4px 3px;
+border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+border-style: solid;
+border-width: 2px;
+box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+box-sizing: border-box;
+color: #41403e;
+cursor: pointer;
+display: inline-block;
+font-family: Neucha, sans-serif;
+font-size: 1rem;
+line-height: 23px;
+outline: none;
+padding: .75rem;
+text-decoration: none;
+transition: all 235ms ease-in-out;
+border-bottom-left-radius: 15px 255px;
+border-bottom-right-radius: 225px 15px;
+border-top-left-radius: 255px 15px;
+border-top-right-radius: 15px 225px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.film_rent_button:hover {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+transform: translate3d(0, 2px, 0);
+}
+
+.film_rent_button:focus {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+/* For the popup window*/
+.modal {
+display: flex;
+padding: 50px;
+
+background-color: rgb(145, 227, 145);
+border: #8f804a dotted;
+}
+.modal input {
+margin-left: 20px;
+}
+
+.rent_now_button {
+  background-color: #fffb02;
+  border-radius: 12px;
+  border-color: gray;
+  color: rgb(12, 53, 90);
+  padding: 2px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

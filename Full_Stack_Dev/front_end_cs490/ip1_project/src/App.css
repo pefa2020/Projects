@@ -1,0 +1,207 @@
+.App {
+  padding: 0;
+  margin: 0;
+  height: 140vh;
+  width: 100%;
+  background-color: rgb(242, 236, 200);
+}
+
+.menu {
+  display: flex;
+  background-color: orange;
+  color: blue;
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.topFive {
+  margin-left: 20px;
+}
+
+/* Table CSS */
+.tableFilm {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableFilm th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.tableFilm tr:hover {
+  background-color: #ddd;
+}
+
+.tableFilm tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.tableFilm th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #046aa9;
+  color: white;
+}
+
+/* Buttons for film */
+.info_film_button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.info_film_button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.info_film_button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.info_film_button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+/*  Button for actor info */
+.info_actor_button {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.info_actor_button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.info_actor_button:active {
+  transform: scale(0.95);
+}
+
+/* upper quadrants format */
+.parent1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.p1_child1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  width: 40%;
+  height: 50vh;
+  background-color: rgb(121, 232, 121);
+  text-align: right;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+  row-gap:  16px;
+}
+
+.p1_child2 {
+  display: flex;
+  width: 40%;
+  border-radius: 30px;
+  background-color:rgb(81, 200, 230);
+  color: rgb(50, 92, 73);
+  height: 50vh;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bottom quadrants format */
+.parent2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.p2_child1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  width: 40%;
+  height: 50vh;
+  background-color:rgb(121, 232, 121);
+  text-align: right;
+  color: white;
+  justify-content: center; 
+  align-items: center;
+}
+
+.p2_child2 {
+  display: flex;
+  border-radius: 30px;
+  width: 40%;
+  background-color:rgb(81, 200, 230);
+  color: rgb(50, 92, 73);
+  height: 50vh;
+  justify-content: center; 
+  align-items: center;
+  font-size: x-large;
+}
+
+.ordered_list {
+  display: flex;
+  background-color: rgb(244, 255, 123);
+  font-size: large;
+}
